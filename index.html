@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinais Cavone</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main
+      class="min-w-screen min-h-screen flex flex-col justify-center items-center">
+      <article
+        class=" rounded-xl sm:w-[37rem] w-[25rem] h-[83vh] sm:h-[115vh] mt-8 bg-[url(./Img/uo5WEOAq64cI.jpg)] bg-contain bg-center bg-no-repeat flex items-center justify-evenly flex-col">
+        <div class="w-[100%] sm:w-[100%] sm:mt-[-25px] mt-[-20px] mb-[0px] overflow-hidden h-[180px] sm:h-[220px]">
+          <img src="./Img/tiger1.gif" class="rounded-xl object-cover object-bottom h-full sm:mt-[-15px] mt-[-10px]" loading="lazy" alt="">
+        </div>
+        <section class="w-[80%] h-[70%]">
+          <div class="card rounded-xl border-[#bb1c2a] h-[70px] border flex items-center">
+            <img src="./Img/normal.png" class="w-[60px] m-[15px] my-[10px]" alt="" />
+            <p id="normal" class="text-xl font-bold text-[#bb1c2a]">NORMAL: </p>
+          </div>
+          <div class="card rounded-xl border-[#bb1c2a] h-[70px] border mt-4 flex items-center">
+            <img src="./Img/turbo.png" class="w-[50px] m-[15px] my-[10px]" alt="" />
+            <p id="turbo" class="text-xl font-bold text-[#bb1c2a]">TURBO: </p>
+          </div>
+          <div class="card rounded-xl border-[#bb1c2a] h-[70px] border mt-4 flex items-center">
+            <img src="./Img/validade.png" class="w-[50px] m-[15px] my-[10px]" alt="" />
+            <p id="validade" class="text-xl font-bold text-[#bb1c2a]">VALIDADE: </p>
+          </div>
+        </section>
+        <a href="javascript:void(0)" id="gerarBtn" onclick="GerarNovoSinal()" class="w-[85%] font-semibold sombra sm:h-[75px] flex items-center justify-center h-10 w-32 bg-green-500 text-white mt-[-145px] rounded shadoww">
+            GERAR NOVO SINAL
+        </a>
+    </article>
+    <a href="https://t.me/+8Y3ro4uiZy4wMTdh" target="_blank" class="w-[200px] sombra h-[55px] mt-[40px]  flex items-center justify-center h-10 w-32 bg-blue-500 text-white mt-[-50px] rounded shadoww">
+        GRUPO DO TELEGRAM
+    </a>
+    <div class="mt-40px h-[40px]"></div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
